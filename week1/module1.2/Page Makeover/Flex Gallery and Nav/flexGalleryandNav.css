@@ -1,0 +1,67 @@
+
+  @media (perfers-color-scheme: dark){
+    html {
+        --text-color-normal: #0a244d;
+        --text-color-light: #8cabd9;
+      }
+      
+      html[data-theme='dark'] {
+        --text-color-normal: hsl(210, 10%, 62%);
+        --text-color-light: hsl(210, 15%, 35%);
+        --text-color-richer: hsl(210, 50%, 72%);
+        --text-color-highlight: hsl(25, 70%, 45%);
+      }
+  }
+      
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #4337de;
+    color: white;
+  }
+  
+  .navbar__logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar__links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .navbar__links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navbar__links a:hover {
+    text-decoration: underline;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
