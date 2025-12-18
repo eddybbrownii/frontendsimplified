@@ -1,0 +1,30 @@
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .banner {
+    animation: slideIn 1s ease-out;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .box {
+    animation: bounce 1s ease-in-out;
+  }
+  .button {
+    animation: bounce 1s ease-in-out 300ms;
+  }
+  
