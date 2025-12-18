@@ -1,0 +1,43 @@
+a:hover {
+    color: red;
+  }
+  button:active {
+    background-color: darkblue;
+  }
+  input:focus {
+    border: 2px solid blue;
+  }
+  r:nth-child(odd) {
+    background-color: #f2f2f2;
+  
+  }
+  .card::before {
+    content: "New!";
+    color: red;
+    font-weight: bold;
+  }
+  blockquote::after {
+    content: " ★";
+    color: gold;
+  }
+  .cta {
+    background-color: royalblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .cta:hover {
+    background-color: dodgerblue;
+  }
+  
+  .cta:active {
+    background-color: navy;
+  }
+  
+  .cta::after {
+    content: " →";
+    font-weight: bold;
+  }
