@@ -1,0 +1,14 @@
+{
+    "copyMarkdownAsHtml.breaks": true,
+    "copyMarkdownAsHtml.html": true,
+    "copyMarkdownAsHtml.linkify": true,
+    "vetur.format.defaultFormatter.html": "prettyhtml",
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.templating": true,
+    "html.trace.server": "verbose",
+    "html-fmt-vscode.indentSize": 5,
+    "preview-html.retainContextWhenHidden": true,
+    "htmlScss.isAngularProject": false,
+    "html-to-css-autocompletion.triggerCharacters": true
+}
